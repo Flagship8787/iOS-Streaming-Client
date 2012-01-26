@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083C0C031487A92A00DEB966 /* UploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 083C0C021487A92A00DEB966 /* UploadManager.m */; };
+		087794E414818EFC005C2FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E314818EFC005C2FA2 /* UIKit.framework */; };
+		087794E614818EFC005C2FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E514818EFC005C2FA2 /* Foundation.framework */; };
+		087794E814818EFC005C2FA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E714818EFC005C2FA2 /* CoreGraphics.framework */; };
+		087794EA14818EFC005C2FA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E914818EFC005C2FA2 /* CoreData.framework */; };
+		087794F014818EFC005C2FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 087794EE14818EFC005C2FA2 /* InfoPlist.strings */; };
+		087794F214818EFC005C2FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087794F114818EFC005C2FA2 /* main.m */; };
+		087794F614818EFC005C2FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087794F514818EFC005C2FA2 /* AppDelegate.m */; };
+		087794F914818EFC005C2FA2 /* OccupyStreamer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 087794F714818EFC005C2FA2 /* OccupyStreamer.xcdatamodeld */; };
+		0877950114818EFC005C2FA2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877950014818EFC005C2FA2 /* SenTestingKit.framework */; };
+		0877950214818EFC005C2FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E314818EFC005C2FA2 /* UIKit.framework */; };
+		0877950314818EFC005C2FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E514818EFC005C2FA2 /* Foundation.framework */; };
+		0877950414818EFC005C2FA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087794E914818EFC005C2FA2 /* CoreData.framework */; };
+		0877950C14818EFC005C2FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0877950A14818EFC005C2FA2 /* InfoPlist.strings */; };
+		0877950F14818EFC005C2FA2 /* OccupyStreamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877950E14818EFC005C2FA2 /* OccupyStreamerTests.m */; };
+		0877951A14818F34005C2FA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0877951814818F29005C2FA2 /* AVFoundation.framework */; };
+		0877951C14818F4E005C2FA2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0877951B14818F4E005C2FA2 /* MainWindow.xib */; };
+		08779527148190C8005C2FA2 /* SyncedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 08779526148190C8005C2FA2 /* SyncedData.m */; };
+		0877952B14819201005C2FA2 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877952A14819201005C2FA2 /* GDataXMLNode.m */; };
+		08779533148192AC005C2FA2 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08779531148192AC005C2FA2 /* CaptureViewController.m */; };
+		08779534148192AC005C2FA2 /* CaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08779532148192AC005C2FA2 /* CaptureViewController.xib */; };
+		087795481481A6C8005C2FA2 /* RecordingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087795471481A6C8005C2FA2 /* RecordingManager.m */; };
+		088BE0F91481EDAE003DCFCA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BE0F61481ED9F003DCFCA /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0877950514818EFC005C2FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 087794D614818EFC005C2FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 087794DE14818EFC005C2FA2;
+			remoteInfo = OccupyStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083C0C011487A92A00DEB966 /* UploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadManager.h; sourceTree = "<group>"; };
+		083C0C021487A92A00DEB966 /* UploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadManager.m; sourceTree = "<group>"; };
+		083C0C041487B08500DEB966 /* RecordingManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingManagerDelegate.h; sourceTree = "<group>"; };
+		087794DF14818EFC005C2FA2 /* OccupyStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OccupyStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		087794E314818EFC005C2FA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		087794E514818EFC005C2FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		087794E714818EFC005C2FA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		087794E914818EFC005C2FA2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		087794ED14818EFC005C2FA2 /* OccupyStreamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OccupyStreamer-Info.plist"; sourceTree = "<group>"; };
+		087794EF14818EFC005C2FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		087794F114818EFC005C2FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		087794F314818EFC005C2FA2 /* OccupyStreamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OccupyStreamer-Prefix.pch"; sourceTree = "<group>"; };
+		087794F414818EFC005C2FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		087794F514818EFC005C2FA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087794F814818EFC005C2FA2 /* OccupyStreamer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OccupyStreamer.xcdatamodel; sourceTree = "<group>"; };
+		087794FF14818EFC005C2FA2 /* OccupyStreamerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OccupyStreamerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0877950014818EFC005C2FA2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0877950914818EFC005C2FA2 /* OccupyStreamerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OccupyStreamerTests-Info.plist"; sourceTree = "<group>"; };
+		0877950B14818EFC005C2FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0877950D14818EFC005C2FA2 /* OccupyStreamerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OccupyStreamerTests.h; sourceTree = "<group>"; };
+		0877950E14818EFC005C2FA2 /* OccupyStreamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OccupyStreamerTests.m; sourceTree = "<group>"; };
+		0877951814818F29005C2FA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0877951B14818F4E005C2FA2 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		08779524148190C8005C2FA2 /* SyncedDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncedDataDelegate.h; sourceTree = "<group>"; };
+		08779525148190C8005C2FA2 /* SyncedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncedData.h; sourceTree = "<group>"; };
+		08779526148190C8005C2FA2 /* SyncedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncedData.m; sourceTree = "<group>"; };
+		0877952914819201005C2FA2 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		0877952A14819201005C2FA2 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		08779530148192AC005C2FA2 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		08779531148192AC005C2FA2 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		08779532148192AC005C2FA2 /* CaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptureViewController.xib; sourceTree = "<group>"; };
+		087795461481A6C8005C2FA2 /* RecordingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingManager.h; sourceTree = "<group>"; };
+		087795471481A6C8005C2FA2 /* RecordingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingManager.m; sourceTree = "<group>"; };
+		088BE0F61481ED9F003DCFCA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087794DC14818EFC005C2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088BE0F91481EDAE003DCFCA /* CoreMedia.framework in Frameworks */,
+				0877951A14818F34005C2FA2 /* AVFoundation.framework in Frameworks */,
+				087794E414818EFC005C2FA2 /* UIKit.framework in Frameworks */,
+				087794E614818EFC005C2FA2 /* Foundation.framework in Frameworks */,
+				087794E814818EFC005C2FA2 /* CoreGraphics.framework in Frameworks */,
+				087794EA14818EFC005C2FA2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087794FB14818EFC005C2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877950114818EFC005C2FA2 /* SenTestingKit.framework in Frameworks */,
+				0877950214818EFC005C2FA2 /* UIKit.framework in Frameworks */,
+				0877950314818EFC005C2FA2 /* Foundation.framework in Frameworks */,
+				0877950414818EFC005C2FA2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083C0BFF1487A90700DEB966 /* UploadManager */ = {
+			isa = PBXGroup;
+			children = (
+				083C0C011487A92A00DEB966 /* UploadManager.h */,
+				083C0C021487A92A00DEB966 /* UploadManager.m */,
+			);
+			name = UploadManager;
+			sourceTree = "<group>";
+		};
+		087794D414818EFC005C2FA2 = {
+			isa = PBXGroup;
+			children = (
+				087794EB14818EFC005C2FA2 /* OccupyStreamer */,
+				0877950714818EFC005C2FA2 /* OccupyStreamerTests */,
+				087794E214818EFC005C2FA2 /* Frameworks */,
+				087794E014818EFC005C2FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		087794E014818EFC005C2FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				087794DF14818EFC005C2FA2 /* OccupyStreamer.app */,
+				087794FF14818EFC005C2FA2 /* OccupyStreamerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		087794E214818EFC005C2FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				088BE0F61481ED9F003DCFCA /* CoreMedia.framework */,
+				0877951814818F29005C2FA2 /* AVFoundation.framework */,
+				087794E314818EFC005C2FA2 /* UIKit.framework */,
+				087794E514818EFC005C2FA2 /* Foundation.framework */,
+				087794E714818EFC005C2FA2 /* CoreGraphics.framework */,
+				087794E914818EFC005C2FA2 /* CoreData.framework */,
+				0877950014818EFC005C2FA2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		087794EB14818EFC005C2FA2 /* OccupyStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				0877951D1481906B005C2FA2 /* app */,
+				0877951E14819072005C2FA2 /* lib */,
+				087794F414818EFC005C2FA2 /* AppDelegate.h */,
+				087794F514818EFC005C2FA2 /* AppDelegate.m */,
+				087794F714818EFC005C2FA2 /* OccupyStreamer.xcdatamodeld */,
+				087794EC14818EFC005C2FA2 /* Supporting Files */,
+			);
+			path = OccupyStreamer;
+			sourceTree = "<group>";
+		};
+		087794EC14818EFC005C2FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087794ED14818EFC005C2FA2 /* OccupyStreamer-Info.plist */,
+				087794EE14818EFC005C2FA2 /* InfoPlist.strings */,
+				087794F114818EFC005C2FA2 /* main.m */,
+				087794F314818EFC005C2FA2 /* OccupyStreamer-Prefix.pch */,
+				0877951B14818F4E005C2FA2 /* MainWindow.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0877950714818EFC005C2FA2 /* OccupyStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0877950D14818EFC005C2FA2 /* OccupyStreamerTests.h */,
+				0877950E14818EFC005C2FA2 /* OccupyStreamerTests.m */,
+				0877950814818EFC005C2FA2 /* Supporting Files */,
+			);
+			path = OccupyStreamerTests;
+			sourceTree = "<group>";
+		};
+		0877950814818EFC005C2FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0877950914818EFC005C2FA2 /* OccupyStreamerTests-Info.plist */,
+				0877950A14818EFC005C2FA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0877951D1481906B005C2FA2 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0877952C14819252005C2FA2 /* controllers */,
+				0877952D1481925A005C2FA2 /* models */,
+				0877952E14819261005C2FA2 /* views */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		0877951E14819072005C2FA2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				083C0BFF1487A90700DEB966 /* UploadManager */,
+				087795451481A6B3005C2FA2 /* RecordingManager */,
+				08779528148191EC005C2FA2 /* GDataXMLNode */,
+				08779523148190A8005C2FA2 /* SyncedData */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		08779523148190A8005C2FA2 /* SyncedData */ = {
+			isa = PBXGroup;
+			children = (
+				08779524148190C8005C2FA2 /* SyncedDataDelegate.h */,
+				08779525148190C8005C2FA2 /* SyncedData.h */,
+				08779526148190C8005C2FA2 /* SyncedData.m */,
+			);
+			name = SyncedData;
+			sourceTree = "<group>";
+		};
+		08779528148191EC005C2FA2 /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				0877952914819201005C2FA2 /* GDataXMLNode.h */,
+				0877952A14819201005C2FA2 /* GDataXMLNode.m */,
+			);
+			name = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		0877952C14819252005C2FA2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0877952F14819285005C2FA2 /* CaptureViewController */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0877952D1481925A005C2FA2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		0877952E14819261005C2FA2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		0877952F14819285005C2FA2 /* CaptureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08779530148192AC005C2FA2 /* CaptureViewController.h */,
+				08779531148192AC005C2FA2 /* CaptureViewController.m */,
+				08779532148192AC005C2FA2 /* CaptureViewController.xib */,
+			);
+			name = CaptureViewController;
+			sourceTree = "<group>";
+		};
+		087795451481A6B3005C2FA2 /* RecordingManager */ = {
+			isa = PBXGroup;
+			children = (
+				087795461481A6C8005C2FA2 /* RecordingManager.h */,
+				087795471481A6C8005C2FA2 /* RecordingManager.m */,
+				083C0C041487B08500DEB966 /* RecordingManagerDelegate.h */,
+			);
+			name = RecordingManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087794DE14818EFC005C2FA2 /* OccupyStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0877951214818EFC005C2FA2 /* Build configuration list for PBXNativeTarget "OccupyStreamer" */;
+			buildPhases = (
+				087794DB14818EFC005C2FA2 /* Sources */,
+				087794DC14818EFC005C2FA2 /* Frameworks */,
+				087794DD14818EFC005C2FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OccupyStreamer;
+			productName = OccupyStreamer;
+			productReference = 087794DF14818EFC005C2FA2 /* OccupyStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		087794FE14818EFC005C2FA2 /* OccupyStreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0877951514818EFC005C2FA2 /* Build configuration list for PBXNativeTarget "OccupyStreamerTests" */;
+			buildPhases = (
+				087794FA14818EFC005C2FA2 /* Sources */,
+				087794FB14818EFC005C2FA2 /* Frameworks */,
+				087794FC14818EFC005C2FA2 /* Resources */,
+				087794FD14818EFC005C2FA2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0877950614818EFC005C2FA2 /* PBXTargetDependency */,
+			);
+			name = OccupyStreamerTests;
+			productName = OccupyStreamerTests;
+			productReference = 087794FF14818EFC005C2FA2 /* OccupyStreamerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087794D614818EFC005C2FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "TransPerfect Translations";
+			};
+			buildConfigurationList = 087794D914818EFC005C2FA2 /* Build configuration list for PBXProject "OccupyStreamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 087794D414818EFC005C2FA2;
+			productRefGroup = 087794E014818EFC005C2FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087794DE14818EFC005C2FA2 /* OccupyStreamer */,
+				087794FE14818EFC005C2FA2 /* OccupyStreamerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087794DD14818EFC005C2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087794F014818EFC005C2FA2 /* InfoPlist.strings in Resources */,
+				0877951C14818F4E005C2FA2 /* MainWindow.xib in Resources */,
+				08779534148192AC005C2FA2 /* CaptureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087794FC14818EFC005C2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877950C14818EFC005C2FA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087794FD14818EFC005C2FA2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087794DB14818EFC005C2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087794F214818EFC005C2FA2 /* main.m in Sources */,
+				087794F614818EFC005C2FA2 /* AppDelegate.m in Sources */,
+				087794F914818EFC005C2FA2 /* OccupyStreamer.xcdatamodeld in Sources */,
+				08779527148190C8005C2FA2 /* SyncedData.m in Sources */,
+				0877952B14819201005C2FA2 /* GDataXMLNode.m in Sources */,
+				08779533148192AC005C2FA2 /* CaptureViewController.m in Sources */,
+				087795481481A6C8005C2FA2 /* RecordingManager.m in Sources */,
+				083C0C031487A92A00DEB966 /* UploadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		087794FA14818EFC005C2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0877950F14818EFC005C2FA2 /* OccupyStreamerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0877950614818EFC005C2FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 087794DE14818EFC005C2FA2 /* OccupyStreamer */;
+			targetProxy = 0877950514818EFC005C2FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		087794EE14818EFC005C2FA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087794EF14818EFC005C2FA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0877950A14818EFC005C2FA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0877950B14818EFC005C2FA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0877951014818EFC005C2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0877951114818EFC005C2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0877951314818EFC005C2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OccupyStreamer/OccupyStreamer-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "OccupyStreamer/OccupyStreamer-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0877951414818EFC005C2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OccupyStreamer/OccupyStreamer-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "OccupyStreamer/OccupyStreamer-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0877951614818EFC005C2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OccupyStreamer.app/OccupyStreamer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OccupyStreamer/OccupyStreamer-Prefix.pch";
+				INFOPLIST_FILE = "OccupyStreamerTests/OccupyStreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0877951714818EFC005C2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OccupyStreamer.app/OccupyStreamer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OccupyStreamer/OccupyStreamer-Prefix.pch";
+				INFOPLIST_FILE = "OccupyStreamerTests/OccupyStreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087794D914818EFC005C2FA2 /* Build configuration list for PBXProject "OccupyStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877951014818EFC005C2FA2 /* Debug */,
+				0877951114818EFC005C2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0877951214818EFC005C2FA2 /* Build configuration list for PBXNativeTarget "OccupyStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877951314818EFC005C2FA2 /* Debug */,
+				0877951414818EFC005C2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0877951514818EFC005C2FA2 /* Build configuration list for PBXNativeTarget "OccupyStreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0877951614818EFC005C2FA2 /* Debug */,
+				0877951714818EFC005C2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		087794F714818EFC005C2FA2 /* OccupyStreamer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				087794F814818EFC005C2FA2 /* OccupyStreamer.xcdatamodel */,
+			);
+			currentVersion = 087794F814818EFC005C2FA2 /* OccupyStreamer.xcdatamodel */;
+			path = OccupyStreamer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 087794D614818EFC005C2FA2 /* Project object */;
+}
